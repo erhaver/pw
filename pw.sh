@@ -10,4 +10,4 @@ intPW=$(pwgen -syvB -1 16 -r \`\"\~\!\@\:\'\,\.\+\(\)\;\{\}\=\-\_\\\<\>)
 echo "$intPW" | xclip -selection clipboard
 # Send notify.
 # Change icon if you want:
-notify-send "Пароль скопирован" -i '/usr/share/icons/Adwaita/32x32/actions/edit-copy-symbolic.symbolic.png' 
+notify-send --hint int:transient:1 "pwgen" "Пароль скопирован" -i '/usr/share/icons/Adwaita/32x32/actions/edit-copy-symbolic.symbolic.png' 
