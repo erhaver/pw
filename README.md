@@ -1,7 +1,7 @@
 # pw
 A small script that makes usage [pwgen](https://linux.die.net/man/1/pwgen "pwgen") a bit easy.
 
-## Installations
+## Installation
 
 ```
 wget https://raw.githubusercontent.com/erhaver/pw/main/pw.sh
