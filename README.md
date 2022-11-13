@@ -1,5 +1,5 @@
 # pw
-A small script that will make using [pwgen](https://linux.die.net/man/1/pwgen "pwgen") a bit easy.
+Small script that will make using [pwgen](https://linux.die.net/man/1/pwgen "pwgen") a bit easy.
 
 ## Installation
 
