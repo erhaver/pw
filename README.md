@@ -1,8 +1,13 @@
 # pw
- small script that improves pwgen
+ Small script that makes usage [pwgen](https://linux.die.net/man/1/pwgen "pwgen") a bit easy.
 
 ## Installations
-download pw.sh and move it into /usr/local/bin/pw 
+
+```
+wget https://raw.githubusercontent.com/erhaver/pw/main/pw.sh
+chmod +x pw.sh
+mv pw.sh /usr/local/bin/pw
+```
 
 ## Usage
 
