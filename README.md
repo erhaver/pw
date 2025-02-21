@@ -11,7 +11,7 @@
 3. Выполните команду для установки:
 
 ```bash
-   make
+sudo make
 ```
 
 Скрипт будет установлен в /usr/local/bin/pw.
@@ -35,5 +35,5 @@ pw -l 12 -c "abc123!@#"
 Чтобы удалить скрипт, выполните команду:
 
 ```bash
-make uninstall
+sudo make uninstall
 ```
